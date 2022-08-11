@@ -8,3 +8,5 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
 * Week 3
     - Lecture 2 (08 August, Monday)
         - NLP with ML
+    - Lecture 3 (11 August, Thursday)
+        - NLP with ML (contd.)
