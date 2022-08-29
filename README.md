@@ -16,3 +16,6 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
 * Week 5
     - Lecture 5 (22 August, Monday)
         - NLP with ML (contd.)
+* Week 6
+    - Lecture 6 (29 August, Monday)
+        - Attention
