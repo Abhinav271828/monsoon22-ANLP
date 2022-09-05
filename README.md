@@ -21,3 +21,6 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
         - Attention
     - Lecture 7 (01 September, Thursday)
         - Attention (contd.)
+* Week 7
+    - Lecture 8 (05 September, Monday)
+        - 
