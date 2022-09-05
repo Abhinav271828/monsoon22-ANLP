@@ -2,18 +2,25 @@
 title: Advanced NLP (CS7.501)
 subtitle: |
           | Monsoon 2022, IIIT Hyderabad
-          | 01 September, Thursday (Lecture 7)
+          | 05 September, Monday (Lecture 8)
 author: Taught by Prof. Manish Shrivastava
+header-includes:
+- \newfontfamily\devanagarifont{KohinoorDevanagari-Regular}
 ---
 
-# Attention (contd.)
-Thus, we have a *query* (the previous output hidden state $s_{t-1}$) that gives us the weights. Using these weights, we then obtain, for each *key* (input token) a *value* (a new vector representation that incorporates the weight).
+# Components of Seq2seq
+We have seen the major components of neural models: the encoder (which carries out analysis), the decoder (which carries out generation), and attention.
 
-We can use attention for sentence-level classification tasks as well. The general mechanism for this would be
-$$\begin{split}
-c_\text{sent} &= \operatorname*{argmax}_C \text{attn}(S_\text{task}, H_\text{sent}), \\
-H_\text{sent} &= \text{RNN}(\text{sent})
-\end{split}$$
-where $C$ is the set of classes and $S_\text{task}$ is some random query vector. The attention is then tuned to extract information relevant to the task.
+Attention is important for many reasons – for example, the lexical choice of target tokens depends on the register of the corresponding token on the source side (*e.g.*, "mother" translates to [माता]{lang=hi} but "mom" to [मम्मी]{lang=hi}).  
+Attention also helps to lessen the "information burden" (albeit in an ill-defined sense, since we lack an information-theoretic bound) on the single vector conveying the meaning of the sentence from the encoder to the decoder.
 
-It is also possible to fix the attention layer at a random initial value and tune only the query vector $S_\text{task}$. This can now be taken as a representation for the task itself.
+The main purpose of the decoder (a language model) is to enforce the *acceptability* of the generated sequence. In a more general sense, it interprets the guidance received by attention to generate the appropriate output, which may incorporate meaning, style and register.
+
+The encoder is the component responsible for providing the decoder with this guidance. In a more general sense, it needs to create a representation from which the relevant information can be extracted. This is done by *contextual representation* models, like ELMo.
+
+## Encoding
+Encoding, at its core, is a task of *meaning aggregation* – the meanings of individual tokens (represented as vectors) need to be combined into a single representation.
+
+One way of improving on RNNs is to add skip connections between input tokens. This creates an undirected, fully connected graph, allowing every token to directly influence every other. However, RNNs in general have a time efficiency problem.
+
+We can allow each word to simply pay attention to every word in the input.

@@ -23,4 +23,5 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
         - Attention (contd.)
 * Week 7
     - Lecture 8 (05 September, Monday)
-        - 
+        - Components of Seq2seq
+            - Encoder
