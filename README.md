@@ -25,3 +25,6 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
     - Lecture 8 (05 September, Monday)
         - Components of Seq2seq
             - Encoder
+    - Lecture 9 (08 September, Thursday)
+        - Components of Seq2seq
+            - Encoder (contd.)
