@@ -28,3 +28,9 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
     - Lecture 9 (08 September, Thursday)
         - Components of Seq2seq
             - Encoder (contd.)
+* Week 8
+    - Lecture 10 (12 September, Monday)
+        - Transformers
+            - Positional Encoding
+            - Scaled Dot-Product Attention
+            - Position-Wise Feedforward Networks
