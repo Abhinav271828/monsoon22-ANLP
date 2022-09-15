@@ -34,3 +34,7 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
             - Positional Encoding
             - Scaled Dot-Product Attention
             - Position-Wise Feedforward Networks
+    - Lecture 11 (15 September, Thursday)
+        - Transformers (contd.)
+            - Add & Norm
+            - Decoder
