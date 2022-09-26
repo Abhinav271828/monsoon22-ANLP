@@ -38,3 +38,6 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
         - Transformers (contd.)
             - Add & Norm
             - Decoder
+* Week 10
+    - Lecture 12 (26 September, Monday)
+        - Miscellaneous Theory
