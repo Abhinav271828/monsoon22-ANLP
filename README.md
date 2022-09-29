@@ -41,3 +41,5 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
 * Week 10
     - Lecture 12 (26 September, Monday)
         - Miscellaneous Theory
+    - Lecture 13 (29 September, Thursday)
+        - BERT
