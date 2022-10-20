@@ -43,3 +43,6 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
         - Miscellaneous Theory
     - Lecture 13 (29 September, Thursday)
         - BERT
+* Week 13
+    - Lecture 14 (20 October, Thursday)
+        - Generative Models
