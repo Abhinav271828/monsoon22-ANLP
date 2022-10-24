@@ -46,3 +46,7 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
 * Week 13
     - Lecture 14 (20 October, Thursday)
         - Generative Models
+* Week 14
+    - Lecture 15 (24 October, Monday)
+        - Generative Models (contd.)
+            - Summarisation
