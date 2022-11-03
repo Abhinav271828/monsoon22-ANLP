@@ -53,3 +53,8 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
     - Lecture 16 (27 October, Thursday)
         - Generative Models
             - Summarisation (contd.)
+* Week 15
+    - Lecture 17 (03 November, Thursday)
+        - Generative Models
+            - Abstractive Summarisation
+            - Machine Reading Comprehension

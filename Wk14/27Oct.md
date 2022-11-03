@@ -12,4 +12,4 @@ header-includes:
 ## Summarisation
 There are various types of summaries: informative or indicative, extractive or abstractive, single- or multi-document, and generic or user-(/query-)focused.
 
-We can cause the model to (possibly) copy from the source by using the architecture described in *Get to the Point – Summarisation with Pointer-Generator Networks*, by Abigail See et al.
+We can cause the model to (possibly) copy from the source by using the architecture described in *Get to the Point – Summarisation with Pointer-Generator Networks* (See et al.). Coverage of the source is studied in *Modeling Coverage for Neural Machine Translation* (Tu et al.).
