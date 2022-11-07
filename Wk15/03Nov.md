@@ -24,5 +24,5 @@ $$\text{cov}_t = \sum_{j=0}^{t-1} a_j.$$
 We then use this vector to score the input terms for copying (?):
 $$e_{ij} = v^T \tanh(Ws_{i-1} + Uh_j + V\text{cov}_j + b_\text{attn}).$$
 
-# Machine Reading Comprehension
+## Machine Reading Comprehension
 In essence, the task of reading comprehension involves answering a question provided with one or more pieces of evidence.
