@@ -62,3 +62,9 @@ Notes and resources for the Advanced NLP course at IIIT Hyderabad.
     - Lecture 18 (07 November, Monday)
         - Generative Models (contd.)
             - GPT
+    - Lecture 19 (10 November, Thursday)
+        - Generative Models
+            - GPT (contd.)
+* Week 17
+    - Lecture 20 (14 November, Monday)
+        - Not really sure lol
